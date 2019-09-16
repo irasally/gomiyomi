@@ -8,6 +8,7 @@ http://sapporo.5374.jp/
 ## Usage
 ```
 ruby gomiyomi.rb
+# => generated area_days.csv
 ```
 
 ## TODO
