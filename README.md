@@ -23,7 +23,7 @@ ruby gomiyomi.rb
 
 ## License
 
-MIT License. See LICENSE.txt for details.
+MIT License. ~~See LICENSE.txt for details.~~ TODO
 
 ## Contributing
 
