@@ -3,6 +3,7 @@
 「札幌市家庭ごみ収集日カレンダーCSV」を「5374.jp 札幌市版」用に加工するライブラリです
 
 https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar
+
 http://sapporo.5374.jp/
 
 ## Usage
