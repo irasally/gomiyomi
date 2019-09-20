@@ -2,4 +2,4 @@
 
 require "gomiyomi/command"
 
-Gominohi::Command.start
+Gomiyomi::Command.start
