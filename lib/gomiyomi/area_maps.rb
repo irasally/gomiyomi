@@ -2,7 +2,7 @@ module Gomiyomi
   AREA_MAPS = {
     chuo_1:
     {
-      name: "中央区1",
+      name: "中央区(1)",
       addresses: [
         "南4条西7丁目・8丁目（南4条通の南側のみ）",
         "南5条～8条の西7丁目・8丁目（南7条西8丁目1024番地を除く）",
@@ -15,7 +15,7 @@ module Gomiyomi
     },
     chuo_2:
     {
-      name: "中央区2",
+      name: "中央区(2)",
       addresses: [
         "南14条西6丁目～12丁目（行啓通の南側のみ）",
         "南15条西4丁目～12丁目",
@@ -27,7 +27,7 @@ module Gomiyomi
     },
     chuo_3:
     {
-      name: "中央区3",
+      name: "中央区(3)",
       addresses: [
         "南3条西11丁目・12丁目（南3条通の南側のみ）",
         "南4条西9丁目・10丁目（南4条通の南側のみ）",
@@ -43,7 +43,7 @@ module Gomiyomi
     },
     chuo_4:
     {
-      name: "中央区4",
+      name: "中央区(4)",
       addresses: [
         "北1条西10丁目～19丁目（北1条通の北側のみ）",
         "北2条西8丁目～19丁目",
@@ -55,7 +55,7 @@ module Gomiyomi
     },
     chuo_5:
     {
-      name: "中央区5",
+      name: "中央区(5)",
       addresses: [
         "大通西20丁目～28丁目",
         "南1条～3条の西20丁目～28丁目",
@@ -69,7 +69,7 @@ module Gomiyomi
     },
     chuo_6:
     {
-      name: "中央区6",
+      name: "中央区(6)",
       addresses: [
         "大通西1丁目～19丁目",
         "大通東○丁目",
@@ -93,7 +93,7 @@ module Gomiyomi
     },
     toyohira_1:
     {
-      name: "豊平区1",
+      name: "豊平区(1)",
       addresses: [
         "豊平○条○丁目",
         "旭町○丁目",
@@ -102,7 +102,7 @@ module Gomiyomi
     },
     toyohira_2:
     {
-      name: "豊平区2",
+      name: "豊平区(2)",
       addresses: [
         "中の島○条○丁目",
         "平岸○条○丁目",
@@ -114,7 +114,7 @@ module Gomiyomi
     },
     toyohira_3:
     {
-      name: "豊平区3",
+      name: "豊平区(3)",
       addresses: [
         "西岡○条○丁目、○番地",
         "福住○条○丁目",
@@ -123,7 +123,7 @@ module Gomiyomi
     },
     toyohira_4:
     {
-      name: "豊平区4",
+      name: "豊平区(4)",
       addresses: [
         "月寒東○条○丁目",
         "月寒西○条○丁目（月寒西1条2丁目1番の望月寒川沿い・月寒西2条4丁目1番を除く）",
@@ -133,7 +133,7 @@ module Gomiyomi
     },
     kiyota_1:
     {
-      name: "清田区1",
+      name: "清田区(1)",
       addresses: [
         "北野○条○丁目",
         "清田○条○丁目、○番地",
@@ -145,7 +145,7 @@ module Gomiyomi
     },
     kiyota_2:
     {
-      name: "清田区2",
+      name: "清田区(2)",
       addresses: [
         "平岡○条○丁目",
         "平岡公園東○丁目",
@@ -157,7 +157,7 @@ module Gomiyomi
     },
       kita_1:
     {
-      name: "北区1",
+      name: "北区(1)",
       addresses: [
         "北6条～31条の西○丁目",
         "北32条西2丁目～12丁目",
@@ -166,7 +166,7 @@ module Gomiyomi
     },
     kita_2:
     {
-      name: "北区2",
+      name: "北区(2)",
       addresses: [
         "新川○条○丁目、○番地",
         "新川西○条○丁目",
@@ -178,7 +178,7 @@ module Gomiyomi
     },
     kita_3:
     {
-      name: "北区3",
+      name: "北区(3)",
       addresses: [
         "新琴似1条～10条の1丁目～11丁目",
         "新琴似11条・12条の1丁目～13丁目",
@@ -186,7 +186,7 @@ module Gomiyomi
     },
     kita_4:
     {
-      name: "北区4",
+      name: "北区(4)",
       addresses: [
         "屯田○条○丁目",
         "屯田町○番地",
@@ -194,7 +194,7 @@ module Gomiyomi
     },
     kita_5:
     {
-      name: "北区5",
+      name: "北区(5)",
       addresses: [
         "麻生町○丁目",
         "北32条西13丁目",
@@ -207,7 +207,7 @@ module Gomiyomi
     },
     kita_6:
     {
-      name: "北区6",
+      name: "北区(6)",
       addresses: [
         "篠路○条○丁目",
         "篠路町篠路○番地",
@@ -223,14 +223,14 @@ module Gomiyomi
     },
     higashi_1:
     {
-      name: "東区1",
+      name: "東区(1)",
       addresses: [
         "北34条～51条の東1丁目～15丁目",
       ],
     },
     higashi_2:
     {
-      name: "東区2",
+      name: "東区(2)",
       addresses: [
         "北34条～49条の東16丁目～30丁目",
         "伏古11条～14条の1丁目～5丁目",
@@ -242,7 +242,7 @@ module Gomiyomi
     },
     higashi_3:
     {
-      name: "東区3",
+      name: "東区(3)",
       addresses: [
         "伏古1条～10条の1丁目～5丁目",
         "東苗穂○条○丁目",
@@ -255,21 +255,21 @@ module Gomiyomi
     },
     higashi_4:
     {
-      name: "東区4",
+      name: "東区(4)",
       addresses: [
         "北5条～33条の東1丁目～7丁目",
       ],
     },
     higashi_5:
     {
-      name: "東区5",
+      name: "東区(5)",
       addresses: [
         "北15条～33条の東8丁目～15丁目",
       ],
     },
     higashi_6:
     {
-      name: "東区6",
+      name: "東区(6)",
       addresses: [
         "北4条～14条の東8丁目～20丁目",
         "北15条～33条の東16丁目～23丁目",
@@ -279,7 +279,7 @@ module Gomiyomi
     },
     shiroishi_1:
     {
-      name: "白石区1",
+      name: "白石区(1)",
       addresses: [
         "中央○条○丁目",
         "本通1丁目～14丁目（南北）",
@@ -291,7 +291,7 @@ module Gomiyomi
     },
     shiroishi_2:
     {
-      name: "白石区2",
+      name: "白石区(2)",
       addresses: [
         "北郷○条○丁目、○番地",
         "川北○条○丁目、○番地",
@@ -303,7 +303,7 @@ module Gomiyomi
     },
     shiroishi_3:
     {
-      name: "白石区3",
+      name: "白石区(3)",
       addresses: [
         "東札幌○条○丁目",
         "菊水○条○丁目",
@@ -312,7 +312,7 @@ module Gomiyomi
     },
     shiroishi_4:
     {
-      name: "白石区4",
+      name: "白石区(4)",
       addresses: [
         "本通15丁目～21丁目（南北）",
         "平和通15丁目～17丁目（南北）",
@@ -323,7 +323,7 @@ module Gomiyomi
     },
     atsubetsu_1:
     {
-      name: "厚別区1",
+      name: "厚別区(1)",
       addresses: [
         "厚別西○条○丁目、○番地",
         "厚別北○条○丁目",
@@ -333,7 +333,7 @@ module Gomiyomi
     },
     atsubetsu_2:
     {
-      name: "厚別区2",
+      name: "厚別区(2)",
       addresses: [
         "厚別中央1条1丁目～4丁目、7丁目",
         "厚別中央2条～5条の○丁目",
@@ -342,7 +342,7 @@ module Gomiyomi
     },
     atsubetsu_3:
     {
-      name: "厚別区3",
+      name: "厚別区(3)",
       addresses: [
         "厚別南○丁目",
         "上野幌○条○丁目",
@@ -354,7 +354,7 @@ module Gomiyomi
     },
     atsubetsu_4:
     {
-      name: "厚別区4",
+      name: "厚別区(4)",
       addresses: [
         "厚別東○条○丁目",
         "厚別町下野幌○番地",
@@ -365,7 +365,7 @@ module Gomiyomi
     },
     minami_1:
     {
-      name: "南区1",
+      name: "南区(1)",
       addresses: [
         "澄川2条4丁目（12番～14番）",
         "澄川2条5丁目",
@@ -384,7 +384,7 @@ module Gomiyomi
     },
     minami_2:
     {
-      name: "南区2",
+      name: "南区(2)",
       addresses: [
         "石山○条○丁目、○番地（石山1条1丁目12-6パレス藻南公園を除く）",
         "石山東○丁目",
@@ -396,7 +396,7 @@ module Gomiyomi
     },
     minami_3:
     {
-      name: "南区3",
+      name: "南区(3)",
       addresses: [
         "藤野○条○丁目、○番地",
         "白川○番地",
@@ -411,7 +411,7 @@ module Gomiyomi
     },
     minami_4:
     {
-      name: "南区4",
+      name: "南区(4)",
       addresses: [
         "澄川1条1丁目～4丁目",
         "澄川2条1丁目～3丁目・4丁目（1番～11番）",
@@ -427,7 +427,7 @@ module Gomiyomi
     },
     minami_5:
     {
-      name: "南区5",
+      name: "南区(5)",
       addresses: [
         "南30条～39条の西○丁目",
         "藻岩下○丁目、○番地",
@@ -438,14 +438,14 @@ module Gomiyomi
     },
     minami_6:
     {
-      name: "南区6",
+      name: "南区(6)",
       addresses: [
         "南沢○条○丁目、○番地（南沢1条3丁目1番（南沢やまどり公園）、20番、21番を除く）",
       ],
     },
     minami_7:
     {
-      name: "南区7",
+      name: "南区(7)",
       addresses: [
         "川沿7条～18条の○丁目",
         "南沢1条3丁目1番（南沢やまどり公園）",
@@ -455,7 +455,7 @@ module Gomiyomi
     },
     nishi_1:
     {
-      name: "西区1",
+      name: "西区(1)",
       addresses: [
         "琴似○条○丁目",
         "二十四軒○条○丁目",
@@ -464,7 +464,7 @@ module Gomiyomi
     },
     nishi_2:
     {
-      name: "西区2",
+      name: "西区(2)",
       addresses: [
         "山の手○条○丁目、○番地",
         "西野6条～14条の○丁目",
@@ -476,7 +476,7 @@ module Gomiyomi
     },
     nishi_3:
     {
-      name: "西区3",
+      name: "西区(3)",
       addresses: [
         "西野1条～5条の○丁目（西野290番地）",
         "西町北○丁目、南○丁目",
@@ -485,7 +485,7 @@ module Gomiyomi
     },
     nishi_4:
     {
-      name: "西区4",
+      name: "西区(4)",
       addresses: [
         "八軒○条西○丁目",
         "八軒○条東○丁目",
@@ -493,7 +493,7 @@ module Gomiyomi
     },
     teine_1:
     {
-      name: "手稲区1",
+      name: "手稲区(1)",
       addresses: [
         "西宮の沢○条○丁目",
         "富丘○条○丁目",
@@ -503,7 +503,7 @@ module Gomiyomi
     },
     teine_2:
     {
-      name: "手稲区2",
+      name: "手稲区(2)",
       addresses: [
         "前田○条○丁目",
         "曙○条○丁目（曙12条2丁目・曙7条3丁目（明日風側）を除く）",
@@ -513,7 +513,7 @@ module Gomiyomi
     },
     teine_3:
     {
-      name: "手稲区3",
+      name: "手稲区(3)",
       addresses: [
         "稲穂○条○丁目",
         "金山○条○丁目",

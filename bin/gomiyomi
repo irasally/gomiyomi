@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "gomiyomi/command"
+
+Gomiyomi::Command.start

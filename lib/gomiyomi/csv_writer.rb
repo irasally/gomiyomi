@@ -1,5 +1,5 @@
-require 'csv'
-require './gomiyomi/area_maps.rb'
+require "csv"
+require "gomiyomi/area_maps"
 
 module Gomiyomi
   class CsvWriter
@@ -9,8 +9,8 @@ module Gomiyomi
       @read_rows = read_rows
     end
 
-    def write
-      CSV.open('area_days.csv', "w") do |csv|
+    def write(to_path)
+      CSV.open(to_path, "w") do |csv|
         csv << HEADER
         @read_rows.each do |row|
           addresses = AREA_MAPS[row[:area]][:addresses]
