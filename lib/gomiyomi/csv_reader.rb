@@ -1,6 +1,6 @@
-require 'csv'
-require 'date'
-require './gomiyomi/header_comverter.rb'
+require "csv"
+require "date"
+require "gomiyomi/header_comverter"
 
 module Gomiyomi
   class CsvReader

@@ -6,29 +6,29 @@ https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar
 
 http://sapporo.5374.jp/
 
+
+## Installation
+
+    $ git clone https://github.com/irasally/gomiyomi.git
+    $ cd gomiyomi
+    $ rake install
+
 ## Usage
-```
-ruby gomiyomi.rb
-# => generated area_days.csv
-```
 
-## TODO
+    $ gomiyomi convert 札幌市家庭ごみ収集日カレンダーCSVのPATH 結果CSVのPATH
 
-早々にgemにする
+For example:
 
+    $ gomiyomi convert data/garvagecollectioncalendar201910 data/area_days.csv
 
 ## Authors
 
-* Omuko `<irasally@gmail.com>`
-
-## License
-
-MIT License. See LICENSE.txt for details.
+Omuko <irasally@gmail.com>
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Bug reports and pull requests are welcome on GitHub at https://github.com/irasally/gomiyomi.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

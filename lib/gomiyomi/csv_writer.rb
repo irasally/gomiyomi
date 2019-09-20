@@ -1,5 +1,5 @@
-require 'csv'
-require './gomiyomi/area_maps.rb'
+require "csv"
+require "gomiyomi/area_maps"
 
 module Gomiyomi
   class CsvWriter
