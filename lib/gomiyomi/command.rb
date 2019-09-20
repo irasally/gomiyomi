@@ -1,6 +1,6 @@
 require "thor"
 require "gomiyomi/converter"
-require "gominohi/version"
+require "gomiyomi/version"
 
 module Gomiyomi
   class Command < Thor
