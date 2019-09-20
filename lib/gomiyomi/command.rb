@@ -13,7 +13,7 @@ module Gomiyomi
     end
 
     desc "convert SAPPORO-GARVAGE-DATA-CSV-PATH OUTPUT-DATA-CSV-PATH", "Convert to sapporo.5374.jp csv data."
-    def convert(from, to)
+    def convert(from_path, to_path)
       puts Converter.convert(from_path, to_path)
     end
   end
