@@ -11,7 +11,9 @@ http://sapporo.5374.jp/
 
     $ git clone https://github.com/irasally/gomiyomi.git
     $ cd gomiyomi
-    $ rake install
+    $ bundle install
+    $ rake build
+    $ gem install pkg/gomiyomi-x.x.x.gem
 
 ## Usage
 
