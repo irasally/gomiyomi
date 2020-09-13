@@ -13,9 +13,9 @@ module Gomiyomi
 
     def read_file
       csv_table = CSV.table(@gomi_file_path, headers: true, header_converters: HeaderConverter.generate)
-      # headerの変換がうまくいかないため
-      dates = csv_table[:date]
-      days_of_weeks = csv_table[:youbi]
+
+      dates = csv_table[csv_table.headers[0]]
+      days_of_weeks = csv_table[csv_table.headers[1]]
 
       csv_table.headers[2..-1].each do |header|
         row = init_hash(header)
